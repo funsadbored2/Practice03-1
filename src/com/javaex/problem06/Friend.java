@@ -8,11 +8,16 @@ public class Friend {
 
     
     //필요한 메소드 작성
-    
-    
+    public void setInfo(String name,String hp,String school){
+    	
+    	this.name = name;
+        this.hp = hp;
+        this.school =school;
+        
+    }    
     
     public void showInfo(){
-        System.out.println("이름:"+name+"  핸드폰:"+hp+"  학교:"+school);
+        System.out.println("이름:" + name + "  핸드폰:" + hp + "  학교:"+school);
     }
 
 }
